@@ -35,6 +35,14 @@ public class HomePage
 	private WebElement campaignslnk;
 	
 	
+	@FindBy(linkText="Documents")
+	private WebElement documentlink;
+	
+	
+	public WebElement getDocumentlink() {
+		return documentlink;
+	}
+
 	@FindBy(linkText="More")
 	private WebElement moreDropdown;
 	
